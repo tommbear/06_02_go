@@ -1,12 +1,12 @@
-# Binaries
+# Binary release
 *.bin
 
-# Test binary
-*.test
+# Object files
+*.o
 
-# Output of the go coverage tool
-*.out
+# Vim swap files
+.*.swp
 
-# Go workspace file
-go.work
-
+# Static files
+/static/*
+!/static/.gitkeep
